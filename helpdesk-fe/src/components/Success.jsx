@@ -1,6 +1,10 @@
 const Success = () => {
   return (
-    <div>Success</div>
+    <>
+      <div className="flex">
+        <h1>Success</h1>
+      </div>
+    </>
   )
 }
 

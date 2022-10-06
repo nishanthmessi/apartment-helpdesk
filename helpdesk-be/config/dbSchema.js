@@ -8,7 +8,7 @@ var issueScheema = new mongoose.Schema({
       required:true,
       lowercase:true,
       validate:(value)=>{
-              return validator.isEmail(value)
+        return validator.isEmail(value)
       }
   },
   mobile:{type:'string',required:true},
